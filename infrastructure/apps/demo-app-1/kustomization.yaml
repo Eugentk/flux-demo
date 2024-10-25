@@ -5,7 +5,7 @@ metadata:
   namespace: app-1
 spec:
   interval: 15m
-  path: "./infrastructure/apps/demo-app-1/deploy"
+  path: "./flux-demo/infrastructure/apps/demo-app-1/deploy"
   prune: true
   sourceRef:
     kind: GitRepository
