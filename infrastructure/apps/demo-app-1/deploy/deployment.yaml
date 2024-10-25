@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-app-1
+  name: demo-app-1
   labels:
-    app: example-app-1
-  namespace: default
+    app: demo-app-1
+  namespace: app-1
 spec:
   selector:
     matchLabels:
